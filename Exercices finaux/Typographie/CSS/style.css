@@ -1,0 +1,65 @@
+@font-face {
+    font-family: SpecialElite;
+    src: url(Fonts/specialelite/SpecialElite.woff);
+}
+body {
+    line-height:1.5;
+    font-family:Cardo;
+}
+
+.container {
+    max-width:420px;
+    margin:auto;
+}
+header {
+    border-bottom:1px solid black;
+}
+footer {
+    border-top:1px solid black;
+}
+h1, h2, h3 {
+    text-transform:uppercase;
+    font-family: SpecialElite, sans-serif;
+}
+h1 {
+    font-size:4em;
+    line-height:2;
+    text-align:center;
+}
+h2 {
+    font-size:2.5em;
+    line-height:1.2;
+}
+h3 {
+    font-size:1.5em;
+    line-height:1;
+}
+h3::before {
+    content:"❧ ";
+}
+header blockquote {
+    white-space:pre;
+    font-style:italic;
+}
+footer blockquote {
+    text-align:justify;
+    font-style:italic;
+}
+blockquote::before {
+    content:"« ";
+}
+blockquote::after {
+    content:" »";
+}
+cite {
+    font-style:normal;
+    display:block;
+    text-align:center;
+}
+footer h2 {
+    text-align:center;
+}
+    
+main p:first-letter {
+    
+}

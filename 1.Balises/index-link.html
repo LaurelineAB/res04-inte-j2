@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice Balises</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <h1>Les principales balises (titre pricipal placé dans l'élément &LT;h1&GT;)</h1>
+    <h2>Les balises de type bloc (sous-titre placé dans l'élément &LT;h2&GT;)</h2>
+    <h3>Un sous-titre de niveau 3</h3>
+    <p>Un paragraphe (élément &LT;p&GT;).</p>
+    <p>Un second paragraphe séparé du premier par une marge (par défaut).</p>
+    <p>Le contenu d'un élément (par exemple un paragraphe) est placé entre les balises ouvrante &LT;p&GT; et la balise fermante 
+    &LT;/p&GT; de cet élément.</p>
+    <p>Pour écrire les caractères < (inférieur à), > (supérieur à) et & (esperluette) il faut utiliser des entitées HTML.</p>
+    <pre>Ce texte est pré-formaté.
+	L'élément &LT;pre&GT; respecte les caratères spéciaux de la source comme les sauts de ligne,
+	les tabulations et
+	les espaces [    ].
+	Par défaut, l'élément &LT;pre&GT; affiche son contenu avec une police à chasse fixe (monospace).
+	L'élément &LT;pre&GT; est généralement utilisé pour écrire du code.</pre>
+	<pre>&LT;!-- Un commentaire en HTML --></pre>
+    <div class="colored">L'élément &LT;div> est générique sans aucun sens particulier, il est utilisé pour structurer le document.</div>
+    <div class="colored">Un second élément &LT;div> n'est pas séparé du précedant par une marge (par défaut).</div>
+    <h3>Les listes (un autre sous-titre de niveau 3)</h3>
+    <ol>
+        <li>Une</li>
+        <li>liste</li>
+        <li>ordonnée</li>
+    </ol>
+    <ul>
+        <li>Une</li>
+        <li>liste</li>
+        <li>non</li>
+        <li>ordonnée</li>
+    </ul>
+    <dl>
+        <dt>Terme 1</dt>
+        <dd>Définition 1</dd>
+        <dt>Terme 2</dt>
+        <dd>Définition 2</dd>
+    </dl>
+    <ul>
+        <li>1. Une</li>
+        <li>2. liste
+            <ul>
+                <li>2.1. avec</li>
+                <li>2.2. une</li>
+                <li>2.3. liste</li>
+                <li>2.4. imbriquée</li>
+            </ul>
+        </li>
+        <li>3. (attention, l'élément &LT;ul> ne peut contenir que ses éléments &LT;li>)</li>
+    </ul>
+    <h2>Les balises de type inline (un autre sous-titre de niveau 2)</h2>
+    <p>Une <strong>portion de texte importante</strong> placée dans l'élément &LT;strong>.</p>
+    <p>Une <em>portion de texte emphasée</em> placée dans l'élément &LT;em>.</p>
+    <p>Un hyperlien vers <a href="">3W Academy</a> (élément &LT;a>).</p>
+    <p>Il existe différents types d'hyperliens :</p>
+    <ol>
+        <li>Un site internet : <a href="">3W Academy</a></li>
+        <li>Une autre page du site internet : <a href="">Nous contacter</a></li>
+        <li>Une adresse email : <a href="">contact@3wa.fr</a></li>
+        <li>Un numéro de téléphone : <a href="">01 75 43 42 42</a></li>
+        <li>Une ancre sur la page : <a href="">haut de la page</a>. Ce type de lien est 
+        souvent utilisé dans la navigation sur les sites internet one-page
+        ou pour revenir en haut de la page.</li>
+    </ol>
+    <p>Un lien avec l'attribut target="_blank" s'ouvre dans un nouvel onglet: 
+    <a href="" target="_blank">3W Academy</a>.</p>
+    <p>Une image <img src="3wa-logo.png" alt="Logo 3W Academy"> dans un paragraphe 
+    (observer l'alignement vertical). L'attribut alt est obligatoire.</p>
+    <p>Une image dans un lien <a href=""><img src="3wa-logo.png" alt="Logo 3W Academy"></a></p>
+    <p>Un paragraphe contenant un saut <br>
+    de ligne &LT;br>.</p>
+    <p>Une abbréviation avec l'élément &LT;abbr>: le code d'une page web est écrit 
+    en <abbr title="HyperText Markup Language">HTML</abbr> avec l'attribut title.</p>
+    <p>Une <dfn>définition</dfn> avec l'élément &LT;dfn></p>
+    <p>Utilisation de l'élément &LT;sub> pour écrire des indices, par exemple dans 
+    une formule chimique: 4 NH<sub>3</sub> + 5 O<sub>2</sub> → 4 NO + 6 H<sub>2</sub>O</p>
+    <p>Utilisation de l'élément &LT;sup> pour écrire des exposants, par exemple dans une 
+    formule mathématique: 3<sup>2</sup> = 9 ou un indicateur ordinal: le 3<sup>ème</sup> arrondissement de Paris.</p>
+    <p>Utilisation de l'élément &LT;ins> pour indiquer <ins>une portion texte insérée</ins>
+    et de l'élément &LT;del> pour indiquer <del>une portion de texte supprimée</del>.</p>
+    <p>L'élément <mark>&LT;mark></mark> représente un texte mis en surbrillance à cause de sa pertinence dans 
+    le contexte, par exemple lors d'une recherche d'un mot clé dans le contenu d'un site web. Il ne doit pas 
+    être utilisé à des fins de coloration syntaxique.</p>
+    <p>Un exemple de code informatique (ici du JavaScript) dans un élément &LT;code>
+    et un élément &LT;pre>:</p>
+    <code>
+        <pre>
+        for (let i = 0; i < 5; i++) {
+		console.log(i);
+	    }
+        </pre>
+    </code>
+    <p>Ce <span class="colored">texte est contenu dans un élément &LT;span></span>. Cet élément n'a pas de sens particulier, 
+    il est systématiquement utilisé avec du style CSS.</p>
+    <h2>Bonnes pratiques (un autre sous-titre de niveau 2)</h2>
+    <p>Les titres nous permettent de structurer notre texte et de faciliter la lecture. 
+    Ils sont également importants pour optimiser le référencement naturel de la page web.</p>
+    <p>Il ne faut pas sauter des niveaux de titre : on commence toujours par un titre de niveau 1, 
+    puis un titre de niveau 2, puis un titre de niveau 3 et ainsi de suite.</p>
+    <p>Sauter un niveau de titre intermédiaire constitue une mauvaise pratique : par exemple 
+    un titre de niveau 1, suivi d'un titre de niveau 3.</p>
+    <p>Toujours placer les éléments de type inline dans un élément de type bloc (et jamais l'inverse)</p>
+    <h2>License (un autre sous-titre de niveau 2)</h2>
+    <img src="3wa-logo.png" alt="Propriété de la 3W Academy">
+    <p>Ce matériel pédagogique est la propriété de la <a href="">3W Academy</a>. Cet exercice 
+    a été réalisé par <a href="">Christiane Dumont</a> et Stephane Pereck.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+

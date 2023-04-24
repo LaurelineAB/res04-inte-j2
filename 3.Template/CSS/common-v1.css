@@ -1,0 +1,38 @@
+body {
+    /*margin:0;*/
+    /*padding:0;*/
+    color:#555;
+    font-family:sans-serif;
+    background-color: #eee;
+}
+header {
+    background-color: #dddddd;
+    border: 1px solid #dd5735;
+    text-align: center;
+}
+h1 {
+    color:#dd5735;
+    font-size:2.5em;
+}
+h2 {
+    color:#333;
+    font-size:2em;
+}
+h3 {
+    font-size:1.5em;
+}
+a {
+    text-decoration: none;
+    color: #dd5735;
+}
+.parent {
+    border: 1px dashed #dd5735;
+}
+footer {
+    background-color: #dddddd;
+    text-align: center;
+    border:1px solid #555;
+}
+img {
+    width:5%;
+}

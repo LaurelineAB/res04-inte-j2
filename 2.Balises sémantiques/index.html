@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice balises sémantiques</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <!--div.container>(header>h1{h1 - Titre de la page}+nav{nav})+(main>(section>h2{h2 - Titre de ma section}+article*2>(h3{h3 - Titre de mon article}+p{un paragraphe}))+aside{aside : infos complémentaires})+footer-->
+    <div class="container">
+        div pour conteneur global
+        <header>
+            header
+            <h1>h1 - Titre de la page</h1>
+            <nav>nav</nav>
+            fin de header
+        </header>
+        <main>
+            main
+            <section>
+                section
+                <h2>h2 - Titre de ma section</h2>
+                <article>
+                    article n°1
+                    <h3>h3 - Titre de mon article</h3>
+                    <p>un paragraphe</p>
+                </article>
+                <article>
+                    article n°2
+                    <h3>h3 - Titre de mon article</h3>
+                    <p>un paragraphe</p>
+                </article>
+                fin de section
+            </section>
+            <aside>aside : infos complémentaires</aside>
+            fin de main
+        </main>
+        <footer>footer</footer>
+        fin de conteneur
+    </div>
+</body>
+</html>

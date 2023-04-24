@@ -1,0 +1,124 @@
+main {
+    line-height:2;
+}
+span {
+    color:#111;
+}
+.small {
+    width:100px;
+    background-color: #ccc;
+}
+.item1 {
+    font-size:medium;
+}
+.item2 {
+    font-size:large;
+}
+.item3 {
+    font-size:14px;
+}
+.item4 {
+    font-size:14pt;
+}
+.item5 {
+    font-size:150%;
+}
+.item6 {
+    font-size:1.5em;
+}
+.item7 {
+    font-size:1.5rem;
+}
+.item8 {
+    font-weight:bold;
+}
+.item9 {
+    font-weight:normal;
+}
+.item10 {
+    font-weight:700;
+}
+.item11 {
+    font-weight:bolder;
+}
+.item12 {
+    font-size:lighter;
+}
+.item13 {
+    font-style:italic;
+}
+.item14 {
+    font-style:normal;
+}
+.item15 {
+    line-height:1;
+}
+.item16 {
+    line-height:1.5;
+}
+.item17 {
+    line-height:4;
+}
+.item18 {
+    letter-spacing:0.5em;
+}
+.item19 {
+    word-spacing:2em;
+}
+.item20 {
+    white-space:normal;
+}
+.item21 {
+    white-space:nowrap;
+}
+.item22 {
+    white-space:pre;
+}
+.item23 {
+    text-align:left;
+}
+.item24 {
+    text-align:right;
+}
+.item25 {
+    text-align:center;
+}
+.item26 {
+    text-align:justify;
+}
+.item27 {
+    text-indent:10%;
+}
+.item28 {
+    text-transform:none;
+}
+.item29 {
+    text-transform:capitalize;
+}
+.item30 {
+    text-transform:uppercase;
+}
+.item31 {
+    text-transform:lowercase;
+}
+.item32 {
+    text-decoration:underline;
+}
+.item33 {
+    text-decoration:none;
+}
+.item34 {
+    text-decoration:overline;
+}
+.item35 {
+    text-decoration:underline red;
+}
+.item36 {
+    text-decoration:underline double orangered;
+}
+.item37 {
+    text-decoration:underline dashed green;
+}
+.item38 {
+    text-decoration:underline wavy teal;
+}

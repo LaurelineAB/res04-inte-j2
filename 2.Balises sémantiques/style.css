@@ -1,0 +1,14 @@
+body {
+    margin:10px;
+    color:#555;
+    text-align:center;
+}
+.container {
+    max-width:980px;
+}
+/*header, main, footer, h1, nav, section, h2, article, h3, p, aside {*/
+.container * {
+    background-color: rgba(0,0,0,.1);
+    margin: 10px;
+    border:1px solid rgba(0,0,0,.2);
+}
