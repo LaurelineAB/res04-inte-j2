@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "Muli";
+    src: url("../Fonts/Muli/Muli-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}@font-face{
+    font-family: "Muli-Bold";
+    src: url("../Fonts/Muli/Muli-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Muli-BoldItalic";
+    src: url("../Fonts/Muli/Muli-BoldItalic.ttf") format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Muli-Italic";
+    src: url("../Fonts/Muli/Muli-Italic.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+h1, h2, h3 {
+    font-family:"Barriecito";
+}
+p {
+    font-family:"Muli";
+}
+.fa-brands {
+    font-size:1.7em;
+}
+.fa-square-facebook {
+    color: #4267b2;
+}
+.fa-square-twitter {
+    color: #40a1f2;
+}
+.fa-youtube {
+    color:red;
+}

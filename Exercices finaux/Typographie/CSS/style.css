@@ -1,10 +1,26 @@
 @font-face {
     font-family: SpecialElite;
-    src: url(Fonts/specialelite/SpecialElite.woff);
+    src: url(../Fonts/specialelite/SpecialElite.woff);
+}
+@font-face {
+    font-family: Cardo-regular;
+    src: url(../Fonts/cardo/cardo-regular.woff);
+}
+@font-face {
+    font-family: Cardo-bold;
+    src: url(../Fonts/cardo/cardo-bold.woff);
+    font-weight:bold;
+}
+@font-face {
+    font-family: Cardo-italic;
+    src: url(../Fonts/cardo/cardo-italic.woff);
+    font-style:italic;
 }
 body {
+    font-size:16px;
     line-height:1.5;
-    font-family:Cardo;
+    font-family:Cardo-regular;
+    background-color: #fff;
 }
 
 .container {
@@ -17,9 +33,10 @@ header {
 footer {
     border-top:1px solid black;
 }
-h1, h2, h3 {
+h1, h2 {
     text-transform:uppercase;
-    font-family: SpecialElite, sans-serif;
+    font-family: SpecialElite;
+    font-weight: normal;
 }
 h1 {
     font-size:4em;
@@ -33,17 +50,21 @@ h2 {
 h3 {
     font-size:1.5em;
     line-height:1;
+    font-family: SpecialElite;
+    font-weight: normal;
 }
 h3::before {
     content:"❧ ";
 }
 header blockquote {
     white-space:pre;
-    font-style:italic;
+    font-family: Cardo-italic;
+    font-size:1.2em;
 }
 footer blockquote {
     text-align:justify;
-    font-style:italic;
+    font-family:Cardo-italic;
+    font-size:1.2em;
 }
 blockquote::before {
     content:"« ";
@@ -61,5 +82,23 @@ footer h2 {
 }
     
 main p:first-letter {
-    
+    font-family:SpecialElite;
+    font-size:200%;
+    vertical-align:text-top;
+    float:left;
+    padding-right:10px;
+}
+p {
+    text-align: justify;
+}
+q {
+    font-family:Cardo-italic;
+}
+a {
+    text-decoration:none;
+    color:black;
+    border-bottom:1px dashed black;
+}
+em {
+    font-family:Cardo-italic;
 }
