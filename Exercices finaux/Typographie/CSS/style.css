@@ -1,69 +1,64 @@
+/*************************
+        POLICES
+*************************/
+
 @font-face {
     font-family: SpecialElite;
     src: url(../Fonts/specialelite/SpecialElite.woff);
 }
 @font-face {
-    font-family: Cardo-regular;
+    font-family: Cardo;
     src: url(../Fonts/cardo/cardo-regular.woff);
 }
 @font-face {
-    font-family: Cardo-bold;
+    font-family: Cardo;
     src: url(../Fonts/cardo/cardo-bold.woff);
     font-weight:bold;
 }
 @font-face {
-    font-family: Cardo-italic;
+    font-family: Cardo;
     src: url(../Fonts/cardo/cardo-italic.woff);
     font-style:italic;
 }
+
+
+/*************************
+        GENERAL
+*************************/
+
 body {
     font-size:16px;
     line-height:1.5;
-    font-family:Cardo-regular;
+    font-family:Cardo, serif;
     background-color: #fff;
-}
-
-.container {
     max-width:420px;
     margin:auto;
 }
+
+/*.container { <-- inutile, max-width et margin peuvent être mis directement sur le body
+    
+} */
+
+
+/***********************
+        HEADER
+***********************/
+
 header {
     border-bottom:1px solid black;
 }
-footer {
-    border-top:1px solid black;
-}
-h1, h2 {
+
+h1 {
     text-transform:uppercase;
     font-family: SpecialElite;
     font-weight: normal;
-}
-h1 {
     font-size:4em;
     line-height:2;
     text-align:center;
 }
-h2 {
-    font-size:2.5em;
-    line-height:1.2;
-}
-h3 {
-    font-size:1.5em;
-    line-height:1;
-    font-family: SpecialElite;
-    font-weight: normal;
-}
-h3::before {
-    content:"❧ ";
-}
 header blockquote {
     white-space:pre;
-    font-family: Cardo-italic;
-    font-size:1.2em;
-}
-footer blockquote {
-    text-align:justify;
-    font-family:Cardo-italic;
+    font-style: italic;
     font-size:1.2em;
 }
 blockquote::before {
@@ -77,10 +72,28 @@ cite {
     display:block;
     text-align:center;
 }
-footer h2 {
-    text-align:center;
-}
+
+
+/**********************
+        MAIN
+**********************/
+h2 {
     
+    text-transform:uppercase;
+    font-family: SpecialElite;
+    font-weight: normal;
+    font-size:2.5em;
+    line-height:1.2;
+}
+h3 {
+    font-size:1.5em;
+    line-height:1;
+    font-family: SpecialElite;
+    font-weight: normal;
+}
+h3::before {
+    content:"❧ ";
+}
 main p:first-letter {
     font-family:SpecialElite;
     font-size:200%;
@@ -92,7 +105,7 @@ p {
     text-align: justify;
 }
 q {
-    font-family:Cardo-italic;
+    font-style:italic;
 }
 a {
     text-decoration:none;
@@ -100,5 +113,22 @@ a {
     border-bottom:1px dashed black;
 }
 em {
-    font-family:Cardo-italic;
+    font-style:italic;
 }
+
+/*****************************
+        FOOTER
+******************************/
+footer {
+    border-top:1px solid black; /*On peut créer une ligne en ajoutant la balise <hr> dans le HTML*/
+}
+footer blockquote {
+    text-align:justify;
+    font-style:italic;
+    font-size:1.2em;
+}
+.end {
+    font-size:2.5em;
+    text-align:center;
+}
+    
